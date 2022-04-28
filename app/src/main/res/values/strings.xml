@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">My News</string>
+    <string name="content_news_image">Imagem da noticia</string>
 </resources>
