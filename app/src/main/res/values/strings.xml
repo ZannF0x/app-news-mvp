@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">My News</string>
-    <string name="content_news_image">Imagem da noticia</string>
+
+    <!-- Content Descriptions -->
+    <string name="content_description_news_image">Imagem da noticia</string>
+    <string name="content_description_favorite_article">Botão para favoritar o artigo</string>
 </resources>

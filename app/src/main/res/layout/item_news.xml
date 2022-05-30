@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_margin="2dp"
-    app:cardCornerRadius="4dp"
+    app:cardCornerRadius="8dp"
     android:background="@color/white">
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -22,7 +22,7 @@
             android:scaleType="centerCrop"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            android:contentDescription="@string/content_news_image" />
+            android:contentDescription="@string/content_description_news_image" />
 
         <TextView
             android:id="@+id/title"
