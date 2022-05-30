@@ -13,6 +13,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Appnews">
         <activity
+            android:name=".ui.FavoriteActivity"
+            android:exported="false" />
+        <activity
             android:name=".ui.ArticleActivity"
             android:exported="false" />
         <activity

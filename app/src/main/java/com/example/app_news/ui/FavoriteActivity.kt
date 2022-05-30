@@ -3,20 +3,20 @@ package com.example.app_news.ui
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
-import com.example.app_news.databinding.ActivityArticleBinding
+import com.example.app_news.databinding.ActivityFavoriteBinding
 
-class ArticleActivity : AppCompatActivity() {
+class FavoriteActivity : AppCompatActivity() {
 
     companion object {
-        private const val TAG = "ArticleActivity"
+        private const val TAG = "FavoriteActivity"
     }
 
-    private lateinit var binding: ActivityArticleBinding
+    private lateinit var binding: ActivityFavoriteBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         Log.d(TAG, "onCreate")
-        binding = ActivityArticleBinding.inflate(layoutInflater)
+        binding = ActivityFavoriteBinding.inflate(layoutInflater)
         setContentView(binding.root)
     }
 }
